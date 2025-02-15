@@ -1,0 +1,3 @@
+This repository demonstrates a potential numeric issue in a COBOL program. The code involves comparing two numeric fields after arithmetic operations.  The bug lies in the potential for unexpected results if the values reach the limits of their defined PIC clauses, causing overflow or truncation.
+
+The `bug.cob` file contains the original code exhibiting this behavior. The `bugSolution.cob` file contains the corrected code using more robust data handling.
